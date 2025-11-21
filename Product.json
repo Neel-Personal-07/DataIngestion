@@ -1,0 +1,7 @@
+{     "Process_Name": "Product",
+      "File_Format": "ProductWiseSales",
+      "TargetDB": "SF",
+      "SourcePath": "C:\\Users\\neela\\Downloads\\PythonDemo\\DataIngestion",
+      "StageTbl": "test",
+      "TargetTbl": "test"
+    }
