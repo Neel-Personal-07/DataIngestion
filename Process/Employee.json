@@ -1,5 +1,5 @@
-{     "Process_Name": "Product",
-      "File_Format": "ProductWiseSales",
+{     "Process_Name": "Employee",
+      "File_Format": "EmployeeDetails",
       "TargetDB": "SF",
       "SourcePath": "C:\\Users\\neela\\Downloads\\PythonDemo\\DataIngestion\\InputData",
       "ArchivePath": "C:\\Users\\neela\\Downloads\\PythonDemo\\DataIngestion\\Archive",
