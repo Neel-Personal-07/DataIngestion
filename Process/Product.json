@@ -3,6 +3,19 @@
       "TargetDB": "SF",
       "SourcePath": "C:\\Users\\neela\\Downloads\\PythonDemo\\DataIngestion\\InputData",
       "ArchivePath": "C:\\Users\\neela\\Downloads\\PythonDemo\\DataIngestion\\Archive",
-      "StageTbl": "test",
-      "TargetTbl": "test"
+      "StageTbl": "PRODUCTWISESALES_STG",
+      "TargetTbl": "PRODUCTWISESALES_CORE",
+      "CI_View":"PRODUCTWISESALES_STG_CI",
+      "Audit_Tbl":"dataingestion_audit",
+      "Schema": ["Product_Id","Qty","Amt","Sales_dt"],
+      "key_col":"Product_Id,Sales_dt",
+      "SF_Conn":
+		{
+		"user":"abinashrout",
+   	        "password":"Mobile8790839136@Cuttack",
+   	        "account":"PFIZJFO-FQ46534",   
+    	        "warehouse":"COMPUTE_WH",
+    		"database":"DATAINGESTION",
+    		"schema":"PUBLIC"
+		}
     }
