@@ -1,0 +1,4 @@
+create or replace view DATAINGESTION.PUBLIC.PRODUCTWISESALES_STG_CI
+as
+select product_id,qty,amt,to_date(sales_dt,'dd-mm-yyyy') as sales_dt
+from PRODUCTWISESALES_STG;
